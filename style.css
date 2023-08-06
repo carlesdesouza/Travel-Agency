@@ -2,6 +2,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 .orange-point{
@@ -10,7 +13,12 @@
 .clear{
     clear: both;
 }
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
 body{
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
